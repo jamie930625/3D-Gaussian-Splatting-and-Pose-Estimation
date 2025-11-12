@@ -18,10 +18,16 @@ Note that you should replace `<username>` with your own GitHub username.
 1.  Please clone the official **DUSt3R** repository from:
     `https://github.com/naver/dust3r`
 
-2.  Ensure the cloned repository is placed according to the required directory structure:
-    <img width="418" height="213" alt="image" src="https://github.com/user-attachments/assets/3531d27e-a61c-4b29-9adf-09faa742b714" />
-
+2.  Ensure the cloned repository is placed according to the required directory structure:  
+DLCV_hw4/  
+├── hw4_1_data/  
+│   ├── public/  
+│   └── private/  
+├── dust3r/  
+│       └── python files.py  
+└── your python files.py  
 ---
+
 
 ### 2. Required Modifications
 
