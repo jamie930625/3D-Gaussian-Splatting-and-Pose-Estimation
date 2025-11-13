@@ -56,7 +56,7 @@ please download `dataset` from the link below
 2025/12/2 (Tue.) 23:59
 
 ### Packages
-This homework requires **Python 3.10** and specific packages for two distinct models. Due to potential dependency conflicts, you are **required to set up two separate virtual environments** (e.g., using `conda` or `venv`).
+This homework requires specific packages for two distinct models. Due to potential dependency conflicts, you are **required to set up two separate virtual environments** (e.g., using `conda` or `venv`).
 
 ---
 
