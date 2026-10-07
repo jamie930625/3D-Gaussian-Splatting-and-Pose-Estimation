@@ -38,7 +38,7 @@ def load_dust3r_model(device, model_path_arg):
 
 
 # =====================================================================
-# load_samples_from_files (你原本的版本已經正確，我保持不動)
+# load_samples_from_files
 # =====================================================================
 import os
 import sys
@@ -153,7 +153,7 @@ def load_samples_from_files(index_txt_path, gt_npy_path, data_root, interpolated
 
 
 # =====================================================================
-#  GT 轉換 utility
+#  Ground-truth conversion utility
 # =====================================================================
 
 def read_gt_dict(gt_raw):
@@ -182,7 +182,7 @@ def read_gt_dict(gt_raw):
 
 
 # =====================================================================
-#  ⭐⭐⭐⭐⭐ 這裡是最重要的：完成 TODO
+#  Inference for one scene
 # =====================================================================
 
 def inference_one_scene(model, sample, device, args):

@@ -7,11 +7,11 @@ OUT_DIR="$2"
 echo "Data root: $DATA_ROOT"
 echo "Output dir: $OUT_DIR"
 
-# 超參數（你可以自己微調這三個數）
-INIT_NITER=1          # init_geo 裡面其實沒用到，但留著無妨
-TRAIN_ITER=100        # train.py 的 iterations
-RENDER_ITER=100       # render 時載入的 checkpoint 迭代數
-POSE_OPT_ITER=100     # <<< 這個才是原本顯示 500/500 的那個
+# Hyperparameters
+INIT_NITER=1          # not used by init_geo; kept for completeness
+TRAIN_ITER=100        # training iterations
+RENDER_ITER=100       # checkpoint iteration loaded for rendering
+POSE_OPT_ITER=100     # test-time pose optimization iterations
 
 # =========================
 # CKPT (ABSOLUTE PATH)
